@@ -16,5 +16,6 @@ public class SampleGET {
         String resBody = resp.asPrettyString();
         System.out.println(resBody);
         resp.then().statusCode(200);
+        
     }
 }
