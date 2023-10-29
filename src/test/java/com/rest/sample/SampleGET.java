@@ -15,5 +15,6 @@ public class SampleGET {
         Response resp = RestAssured.get("https://reqres.in/api/users?page=2");
         String resBody = resp.asPrettyString();
         System.out.println(resBody);
+        resp.then().statusCode(200);
     }
 }
