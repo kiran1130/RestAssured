@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "allure-commandline": "^2.24.1",
+	"allure":"test"
+  }
+}
